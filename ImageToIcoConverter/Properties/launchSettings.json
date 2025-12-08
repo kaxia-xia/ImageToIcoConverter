@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ImageToIcoConverter (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ImageToIcoConverter (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
