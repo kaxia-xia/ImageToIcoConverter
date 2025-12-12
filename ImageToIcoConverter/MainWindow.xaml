@@ -30,7 +30,10 @@
         </StackPanel>
 
         <!-- 图片预览区域 -->
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="800" Height="500">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="850" Height="500" Margin="80 50 0 0">
+            <Grid.Background>
+                <AcrylicBrush TintColor="Black" Opacity="0.3" />
+            </Grid.Background>
             <!-- 左侧原图片 -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
